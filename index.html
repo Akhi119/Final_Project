@@ -1,191 +1,212 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-  <title>GYM</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="nav">
-      <h2> Gain Fitness </h2>
-      <ul id="object">
-<li><a href="#">Home</a></li>
-<li><a href="#">About us</a></li>
-<li><a href="#">Gym Trainers</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Contact</a></li>
-<div class="icon">
-<i class="fa fa-facebook-square"></i>
-  <i class="fa fa-instagram"></i>
-<i class="fa fa-twitter"></i>
-</div>
-</ul>
-</div>
-
-  <div class= "background">
-    <div class="overlying"></div>
+<!--header starts from here-->
+   <head>
+     <!-- gave title and liked to the  style sheetstyle.css ---->
+      <meta charset="utf-8">
+      <title>GYM</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <!--header closed here-->
+   <body><!--body starts from here-->
+     <!--Created class nav to include navigation bar and
+      to add menu items like home,about us etc---->
+      <div class="nav">
+         <h2> Gain Fitness </h2>
+         <ul id="object">
+            <li><a href="#">Home</a></li>
+            <li><a href="#AboutUS">About us</a></li>
+            <li><a href="#TrainingClasses">Gym Trainers</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <!--Created class icon to add icons like facebook,twitter etc.-->
+            <div class="icon">
+               <i class="fa fa-facebook-square"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-twitter"></i>
+            </div>
+         </ul>
+         <!--created bar icon in the navigationbar--->
+         <i id="bar" class="fa fa-bars"></i>
+      </div>
+      <div class= "background">
+         <div class="overlying"></div>
       </div>
       <div class="middle">
-        <p>"Get In. Get Fit. Get on with Life"</p>
-        <h2>LOOK FIT FEEL FIT AT GAIN FITNESS</h2>
-        <div class="button">
-          <a href="#" >Get Started</a>
-</div>
-</div>
-<div class="details">
-  <div class="One">
-    <h3>New to the Gain Fitness?</h3>
-    <h6>Want to become member in Gain Fitness? Your membership is free upto 2months ($50.2 per month)</h6>
-    <p>Gain Fitness is user friendly. Feel free to use it</p>
-    <a href="#"> Become a Member? </a>
-  </div>
-    <div class="two">
-      <h3>Working Hours</h3>
-      <br>
-      <h5>Sunday: Closed</h5>
-      <h5>Monday- Friday</h5>
-      <p>7:00 am - 10:00 pm</p>
-      <br>
-      <h5>Monday- Friday</h5>
-      <p>7:00 am - 10:00 pm</p>
-    </div>
-  </div>
-  <div class="trainers">
-    <div class="about">
-<h2>Hello</h2>
-<p>A fitness trainer is someone who leads, instructs, and motivates individuals or groups in exercise activities,
-   including cardiovascular exercise (exercises for the heart and blood system),
-  strength training, and stretching. They work with people of all ages and skill levels.</p>
+         <p>"Get In. Get Fit. Get on with Life"</p>
+         <h2>LOOK FIT FEEL FIT AT GAIN FITNESS</h2>
+         <div class="button">
+            <a class="simple" href="#" >Get Started</a>
+         </div>
+      </div>
+      <!--created id for class details when we click on the about
+      us in nav bar it will redirect to the details section-->
+      <div id="AboutUS" class="details">
+         <div class="One">
+            <h3>New to the Gain Fitness?</h3>
+            <h6>Want to become member in Gain Fitness? Your membership is free upto 2months ($50.2 per month)</h6>
+            <p>Gain Fitness is user friendly. Feel free to use it</p>
+            <a href="#"> Become a Member? </a>
+         </div>
+         <div class="two">
+            <h3>Working Hours</h3>
+            <br>
+            <h5>Sunday: Closed</h5>
+            <h5>Monday- Friday</h5>
+            <p>7:00 am - 10:00 pm</p>
+            <br>
+            <h5>Monday- Friday</h5>
+            <p>7:00 am - 10:00 pm</p>
+         </div>
+      </div>
+      <!--cretaed id training classes for the class trainers so when we click on
+      the gym trainers in nav bar it will navigate to the gym trainers section-->
+      <div id="TrainingClasses" class="trainers">
+         <div class="about">
+            <h2>Hello</h2>
+            <p>A fitness trainer is someone who leads, instructs, and motivates individuals or groups in exercise activities,
+               including cardiovascular exercise (exercises for the heart and blood system),
+               strength training, and stretching. They work with people of all ages and skill levels.
+            </p>
+            <br><br>
+            <p> Personal gym trainer considers all of these things along
+               with individual medical condition of each of their clients and schedules an exercise
+               regimen accordingly.Personal gym trainers provide customised workout regimens,
+               personalised attention and a motivational boost to ensure that their clients achieve their fitness goals.
+            </p>
+         </div>
+         <!--created div class people to add the trainer details along with their picture-->
+         <div class="people">
+            <div class="trainer1">
+               <div class="image">
+                  <img src="trainer1.jpg">
+               </div>
+               <div class="trainer1details">
+                  <div class="name">
+                     <h4>Marie</h4>
+                     <i class="fa fa-instagram"></i>
+                  </div>
+                  <div class="profession">
+                     <p>Yoga Instructor</p>
+                  </div>
+               </div>
+            </div>
+            <div class="trainer2">
+               <div class="image">
+                  <img src="trainer2.jpg">
+               </div>
+               <div class="trainer1details">
+                  <div class="name">
+                     <h4>Jack</h4>
+                     <i class="fa fa-instagram"></i>
+                  </div>
+                  <div class="profession">
+                     <p>Fitness Coach</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--all services of gym are included in class called classes which starts from here-->
+      <div id="Services" class="classes">
+         <p class="paragraph">Get a perfect body</p>
+         <h2 class="TrainingClasses"> Our Services</h2>
+         <div class="classMenu">
+            <div class="trainer1">
+               <div class="image">
+                  <img src="Yoga.jpg">
+               </div>
+               <div class="trainer1details">
+                  <div class="name">
+                     <div class="nameDetails">
+                        <h4>Yoga</h4>
+                        <!--added span tag for making style to the paragraph-->
+                        <p>Trained By - <span>Annie</span></p>
+                     </div>
+                     <div class="num">
+                        <h5>$40</h5>
+                     </div>
+                  </div>
 
-  <br><br>
-  <p> Personal gym trainer considers all of these things along
-    with individual medical condition of each of their clients and schedules an exercise
-     regimen accordingly.Personal gym trainers provide customised workout regimens,
-       personalised attention and a motivational boost to ensure that their clients achieve their fitness goals.</p>
-       </div>
-    <div class="people">
-      <div class="trainer1">
-        <div class="image">
-          <img src="trainer1.jpg">
-        </div>
-        <div class="trainer1details">
-        <div class="name">
-          <h4>Marie</h4>
-            <i class="fa fa-instagram"></i>
-          </div>
-        <div class="profession">
-          <p>Yoga Instructor</p>
-        </div>
-      </div>
-    </div>
-    <div class="trainer1">
-    <div class="image">
-      <img src="trainer2.jpg">
-    </div>
-    <div class="trainer1details">
-    <div class="name">
-      <h4>Jack</h4>
-        <i class="fa fa-instagram"></i>
-      </div>
-    <div class="profession">
-      <p>Fitness Coach</p>
-    </div>
-  </div>
-</div>
-  </div>
-</div>
-<div class="classes">
-  <p class="paragraph">Get a perfect body</p>
-  <h2 class="TrainingClasses">Training Classes</h2>
-<div class="classMenu">
-  <div class="trainer1">
-  <div class="image">
-    <img src="Yoga.jpg">
-  </div>
-<div class="trainer1details">
-  <div class="name">
-    <div class="nameDetails">
-      <h4>Yoga</h4>
-      <p>Trained By - <span>Annie</span></p>
-    </div>
-      <div class="num">
-      <h5>$40</h5>
-  </div>
-      </div>
-      </div>
-  <div class="profession">
-    <p>Yoga is a great way to work on your <br>
-      flexibility and strength.</p>
-  </div>
-    </div>
+               <div class="profession">
+                  <p>Yoga is a great way to work on your
+                     flexibility and strength.
+                  </p>
+               </div>
+               </div>
+            </div>
+            <div class="trainer1">
+               <div class="image">
+                  <img src="bodyBuilding.jpg">
+               </div>
+               <div class="trainer1details">
+                  <div class="name">
+                     <div class="nameDetails">
+                        <h4>Body Building</h4>
+                        <p>Trained By - <span>John</span></p>
+                     </div>
+                     <div class="num">
+                        <h5>$60</h5>
+                     </div>
+                  </div>
 
+               <div class="profession">
+                  <p>Bodybuilding, a regimen of exercises designed to
+                     enhance the human body's muscular development.
+                  </p>
+                </div>
+               </div>
+            </div>
+            <div class="trainer1">
+               <div class="image">
+                  <img src="treadmill.jpg">
+               </div>
+               <div class="trainer1details">
+                  <div class="name">
+                     <div class="nameDetails">
+                        <h4>Treadmill</h4>
+                        <p>Trained By - <span>Denver</span></p>
+                     </div>
+                     <div class="num">
+                        <h5>$35</h5>
+                     </div>
+                  </div>
 
-    <div class="trainer1">
-    <div class="image">
-      <img src="bodyBuilding.jpg">
-    </div>
-  <div class="trainer1details">
-    <div class="name">
-      <div class="nameDetails">
-        <h4>Body Building</h4>
-        <p>Trained By - <span>John</span></p>
+               <div class="profession">
+                  <p>Most of the treadmills come with different engagement levels
+                     which can be changed according to your comfort.
+                  </p>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div><!--class closes here-->
+      <!--created div class called contact to display the contact details of gym-->
+      <div id="Contact" class="contact">
+         <div class="form">
+            <h4>Ask Us</h4>
+            <div class="submit">
+               <input type="text" name="" placeholder="Name">
+               <input type="email" name="" placeholder="Email">
+               <textarea rows="4" cols="50" placeholder="Enter Your Message" > </textarea>
+               <a href="#">Send Message</a>
+            </div>
+         </div>
+         <div class="address">
+            <h2>You Can Find Us</h2>
+            <p><i class="fa fa-map-pin"></i> s134 W 26th St, New York, NY‎</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799375221!2d-74.25988243688296!3d40.69767005969392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1632518482625!5m2!1sen!2sin"
+               width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
       </div>
-        <div class="num">
-        <h5>$60</h5>
-    </div>
-        </div>
-        </div>
-
-  <div class="profession">
-      <p>Bodybuilding, a regimen of exercises designed to<br>
-        enhance the human body's muscular development.</p>
-    </div>
+      <!--added footer section to display copyright details-->
+      <div class="footer">
+         <p>Copyright © 2021 Gain Fitness co.<br><br>
+            Designed by: Akhila and Yuvraj
+         </p>
       </div>
-      <div class="trainer1">
-      <div class="image">
-        <img src="treadmill.jpg">
-      </div>
-    <div class="trainer1details">
-      <div class="name">
-        <div class="nameDetails">
-          <h4>Treadmill</h4>
-          <p>Trained By - <span>Denver</span></p>
-        </div>
-          <div class="num">
-          <h5>$35</h5>
-      </div>
-          </div>
-          </div>
-
-    <div class="profession">
-        <p>Most of the treadmills come with different engagement levels
-          which can be changed<br> according to your comfort.</p>
-      </div>
-        </div>
-</div>
-</div>
-
-<div class="contact">
-  <div class="form">
-  <h4>Ask Us</h4>
-  <div class="submit">
-    <input type="text" name="" placeholder="Name">
-    <input type="email" name="" placeholder="Email">
-    <textarea rows="4" cols="50" placeholder="Enter Your Message" > </textarea>
-    <a href="#">Send Message</a>
-</div>
-</div>
-<div class="address">
-  <h2>You Can Find Us</h2>
-<p><i class="fa fa-map-pin"></i> s134 W 26th St, New York, NY‎</p>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799375221!2d-74.25988243688296!3d40.69767005969392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1632518482625!5m2!1sen!2sin"
-  width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
-</div>
-<div class="footer">
-  <p>Copyright © 2021 Gain Fitness co.<br><br>
-    Designed by: Akhila and Yuvraj</p>
-</div>
-</body>
-  </html>
+      <!--linked java script here-->
+      <script src="script.js"></script>
+   </body><!--body ended here-->
+</html>
