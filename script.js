@@ -1,7 +1,7 @@
 
 /*getting id's of bar class and item class*/
 var menu = document.getElementById("bar");
-var item = document.getElementById("item");
+var item = document.getElementById("object");
 /*here the condition of the item should be right with the -300px
 in order not to show the items in navbar when the screen sixe if reduced*/
 item.style.right = '-300px';
